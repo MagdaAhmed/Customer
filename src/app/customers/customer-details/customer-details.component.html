@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{ customer.name }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ customer.code }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ customer.address }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ customer.gender }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ customer.accountNumber }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ customer.contractDate }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+      <div>
+        <button class="btn btn-primary" (click)="onEditCustomer()">Edit Customer</button>
+        <button class="btn btn-danger" (click)="onDeleteCustomer()">Delete Customer</button>
+      </div>
+  </div>
+</div>
